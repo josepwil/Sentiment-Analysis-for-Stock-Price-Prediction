@@ -1,0 +1,63 @@
+Technique,Dataset,Stock,Accuracy ,Precision,Recall,F1 Score,Pearson Correlation
+VADER,dataset2,GS,50%,46.94%,92.00%,62.16%,0.172
+VADER,dataset1,GS,75.00%,60.00%,100.00%,75.00%,0.311
+VADER,bothdata,GS,53.13%,48.15%,92.86%,63.41%,0.227
+VADER,dataset2,FB,65.08%,66.67%,95.24%,78.43%,-0.042
+VADER,dataset1,FB,54.55%,70.00%,60.87%,65.12%,-0.271
+VADER,bothdata,FB,61.46%,67.50%,83.08%,74.48%,-0.246
+VADER,dataset2,AMZN,63.64%,65.08%,95.35%,77.36%,-0.04
+VADER,dataset1,AMZN,62.50%,66.67%,80.00%,72.73%,0.042
+VADER,bothdata,AMZN,63.21%,65.59%,89.71%,75.78%,0.008
+VADER,dataset2,AAPL,66.67%,69.70%,93.88%,80.00%,-0.161
+VADER,dataset1,AAPL,57.89%,66.67%,66.67%,66.87%,0.075
+VADER,bothdata,AAPL,63.55%,68.89%,84.93%,76.07%,0.024
+,,,Average Accuracy,Average Precision,Average Recall,Average F1 Score,Average Pearson Correlation
+,,,61%,63.49%,86.22%,72.28%,0.00825
+,,,,,,,
+Technique,Dataset,Stock,Accuracy ,Precision,Recall,F1 Score,Pearson Correlation
+SVM,dataset2,GS,49.21%,46.30%,89.29%,60.98%,0.164
+SVM,dataset1,GS,45.45%,40.00%,100.00%,57.14%,0.054
+SVM,bothdata,GS,51.39%,46.67%,90.32%,61.54%,0.138
+SVM,dataset2,FB,69.86%,70.00%,98.00%,81.67%,-0.021
+SVM,dataset1,FB,28.57%,56.25%,33.33%,41.86%,-0.347
+SVM,bothdata,FB,58.56%,67.82%,76.62%,71.95%,-0.27
+SVM,dataset2,AMZN,61.97%,62.86%,97.78%,76.52%,0
+SVM,dataset1,AMZN,48.89%,57.58%,67.86%,62.30%,0.028
+SVM,bothdata,AMZN,58.47%,63.27%,82.67%,71.68%,-0.1
+SVM,dataset2,AAPL,69.86%,70.83%,98.08%,82.26%,-0.052
+SVM,dataset1,AAPL,55.81%,69.57%,57.14%,62.75%,0.121
+SVM,bothdata,AAPL,65.83%,71.13%,84.15%,77.09%,0.063
+,,,Average Accuracy,Average Precision,Average Recall,Average F1 Score,Average Pearson Correlation
+,,,55.32%,60.19%,81.27%,67.31%,-0.0185
+,,,,,,,
+Technique,Dataset,Stock,Accuracy ,Precision,Recall,F1 Score,Pearson Correlation
+LSTM,dataset2,GS,50.00%,48.00%,77.42%,59.26%,0.159
+LSTM,dataset1,GS,50.00%,37.50%,100.00%,54.55%,0.23
+LSTM,bothdata,GS,50.00%,47.54%,82.85%,60.42%,0.171
+LSTM,dataset2,FB,67.12%,68.06%,98.00%,80.33%,-0.107
+LSTM,dataset1,FB,45.00%,64.00%,55.17%,59.26%,-0.317
+LSTM,bothdata,FB,58.93%,69.05%,74.36%,71.60%,-0.285
+LSTM,dataset2,AMZN,63.38%,64.18%,95.56%,76.79%,0.02
+LSTM,dataset1,AMZN,52.08%,59.46%,73.33%,65.67%,-0.016
+LSTM,bothdata,AMZN,60.83%,64.65%,84.21%,73.14%,-0.019
+LSTM,dataset2,AAPL,66.22%,70.15%,90.38%,78.99%,-0.058
+LSTM,dataset1,AAPL,58.33%,66.67%,70.97%,68.75%,0.151
+LSTM,bothdata,AAPL,62.30%,68.37%,81.71%,74.44%,0.062
+,,,Average Accuracy,Average Precision,Average Recall,Average F1 Score,Average Pearson Correlation
+,,,57.02%,60.64%,82.00%,68.60%,-0.00075
+,,,,,,,
+Technique,Dataset,Stock,Accuracy ,Precision,Recall,F1 Score,Pearson Correlation
+FinBERT,dataset2,GS,48.33%,48.28%,96.55%,64.37%,0.126
+FinBERT,dataset1,GS,36.36%,36.36%,100.00%,53.33%,0.081
+FinBERT,bothdata,GS,46.48%,46.38%,96.97%,62.75%,0.046
+FinBERT,dataset2,FB,65.75%,67.61%,96.00%,79.34%,0.05
+FinBERT,dataset1,FB,71.79%,73.68%,96.55%,83.58%,-0.041
+FinBERT,bothdata,FB,67.86%,69.72%,96.20%,80.85%,-0.007
+FinBERT,dataset2,AMZN,63.24%,62.69%,100.00%,77.06%,0.066
+FinBERT,dataset1,AMZN,62.22%,64.10%,89.29%,74.63%,0.172
+FinBERT,bothdata,AMZN,62.83%,63.21%,95.71%,76.14%,0.146
+FinBERT,dataset2,AAPL,70.83%,71.43%,98.04%,82.64%,0.074
+FinBERT,dataset1,AAPL,56.52%,60.47%,89.66%,72.22%,-0.03
+FinBERT,bothdata,AAPL,65.25%,67.26%,95.00%,78.76%,0.022
+,,,Average Accuracy,Average Precision,Average Recall,Average F1 Score,Average Pearson Correlation
+,,,59.79%,60.93%,95.83%,73.81%,0.05875

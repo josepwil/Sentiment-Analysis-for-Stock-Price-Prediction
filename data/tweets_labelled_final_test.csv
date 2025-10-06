@@ -1,0 +1,248 @@
+ID,datetime,TokenizedText,sentiment,tickers,date,hour,day_of_week,month,year,normalized_text,text_length,word_count,ticker_count
+761294,2020-07-03 16:50:31+00:00,"$AAPL - Apple's Handwriting On The Wall For Intel And AMD. https://t.co/wGimZoIpp4  - 1,324% profits - 1/2 in $$ - last 14 years - buy #AIM #investing book, get free newsltr &amp; learn how - https://t.co/CzS5PXZWco - https://t.co/IHjBPabNd1 - like $AAPL",1.0,"['AAPL', 'AMD', 'INTC']",2020-07-03,16,4,7,2020,"aapl - apple is handwriting on the wall for intel and amd. httpst.cowgimzoipp4 - 1,324 profits - 12 in - last 14 years - buy aim investing book, get free newsltr amp learn how - httpst.coczs5pxzwco - httpst.coihjbpabnd1 - like aapl",231,41,3
+760262,2020-07-03 19:39:35+00:00,RT @bentboolean: How much of Amazon's traffic is served by Fastly? Help us find out by running this tool from your IP address: https://t.co…,1.0,"['AMZN', 'IP']",2020-07-03,19,4,7,2020,rt bentboolean how much of amazon is traffic is served by fastly? help us find out by running this tool from your ip address httpst.co,134,25,2
+759673,2020-07-03 21:52:40+00:00,"#ORR.96m at 1.51g/t. 7m at 86.39g/t.Main trend 6km. Drilling now a company focused on growth our JV partner. 1.3b cash at hand , process plant already planned at Boto. This has GGP scenario all over it . 3 m cap??.
+#AIM.#stockmarket.#stocks.#investing.#mining.#gold. https://t.co/d6QlafvEIQ",1.0,['GGP'],2020-07-03,21,4,7,2020,"orr.96m at 1.51gt. 7m at 86.39gt.main trend 6km. drilling now a company focused on growth our jv partner. 1.3b cash at hand , process plant already planned at boto. this has ggp scenario all over it . 3 m cap??. aim.stockmarket.stocks.investing.mining.gold. httpst.cod6qlafveiq",277,42,1
+768966,2020-07-04 14:01:30+00:00,"To learn options trading in #stock like $AMZN and $FB for example ..what are the best online applications to do that? https://t.co/lhD2SFttbU   
+   #optionchain #volatility",1.0,"['AMZN', 'FB']",2020-07-04,14,5,7,2020,to learn options trading in stock like amzn and fb for example ..what are the best online applications to do that? httpst.colhd2sfttbu optionchain volatility,157,24,2
+768740,2020-07-04 15:00:52+00:00,"Daddy needs to break even on $DIS. Come on Disney PR team, you know what to do Monday morning! #Hamilton",1.0,['DIS'],2020-07-04,15,5,7,2020,"daddy needs to break even on dis. come on disney pr team, you know what to do monday morning! hamilton",102,20,1
+767023,2020-07-04 21:34:05+00:00,"RT @TrueBubbleHead: Notable inside weeks:  $AAPL a pause after an epic run up, $BAC upper shadow inside a bearish candle... could be tellin…",1.0,"['AAPL', 'BAC']",2020-07-04,21,5,7,2020,"rt truebubblehead notable inside weeks aapl a pause after an epic run up, bac upper shadow inside a bearish candle... could be tellin",133,23,2
+774598,2020-07-05 10:13:45+00:00,RT @SeekingAlpha: $F - Ford: A Cheap Stock With High Liquidity Brings Opportunity. https://t.co/KES63dU5FW #finance #stocks #economy,1.0,['F'],2020-07-05,10,6,7,2020,rt seekingalpha f - ford a cheap stock with high liquidity brings opportunity. httpst.cokes63du5fw finance stocks economy,121,17,1
+789540,2020-07-06 02:31:16+00:00,"$GOOG $AAPL $SPY $AMZN $TDOC $TSLA $COST $BA $NFLX $NVDA $TWTR $ZM $BABA $FB $DOW $MSFT $QQQ $BB
+To enhance your experience in trading and get instant help click here https://t.co/waJXnpA7xo https://t.co/p94fTX4VO5",1.0,"['AAPL', 'AMZN', 'BA', 'COST', 'DOW', 'FB', 'GOOG', 'MSFT', 'NFLX', 'NVDA', 'TWTR']",2020-07-06,2,0,7,2020,goog aapl spy amzn tdoc tsla cost ba nflx nvda twtr zm baba fb dow msft qqq bb to enhance your experience in trading and get instant help click here httpst.cowajxnpa7xo httpst.cop94ftx4vo5,188,32,11
+788440,2020-07-06 06:29:28+00:00,RT @LiviamCapital: 1/ $FB is still remarkably cheap at these prices with long runway of growth. Recent advertising boycott is immaterial ye…,1.0,['FB'],2020-07-06,6,0,7,2020,rt liviamcapital 1 fb is still remarkably cheap at these prices with long runway of growth. recent advertising boycott is immaterial ye,135,22,1
+785264,2020-07-06 13:50:16+00:00,"[ $SPY $QQQ $IWM $SPX $NDX $RUT $AMZN $NFLX $AAPL $MSFT $BA $TSLA Stocks &amp; Option Alert  Service https://t.co/ZXTYWWzaA8 ]
+$IBB   to Sell.]  =",-1.0,"['AAPL', 'AMZN', 'BA', 'MSFT', 'NFLX']",2020-07-06,13,0,7,2020,spy qqq iwm spx ndx rut amzn nflx aapl msft ba tsla stocks amp option alert service httpst.cozxtywwzaa8 ibb to sell.,116,21,5
+780872,2020-07-06 17:27:29+00:00,So who bought $AMZN in March when it was in the $1600s? It’s over $3000 now. Wild!,1.0,['AMZN'],2020-07-06,17,0,7,2020,so who bought amzn in march when it was in the 1600s? its over 3000 now. wild!,78,17,1
+780759,2020-07-06 17:34:56+00:00,"@WSJ All about the money, eh $DIS. Got to stop that 20% yearly decline somehow.",-1.0,['DIS'],2020-07-06,17,0,7,2020,"wsj all about the money, eh dis. got to stop that 20 yearly decline somehow.",76,15,1
+779125,2020-07-06 19:38:57+00:00,"RT @Madison89421615: Probably nothing to worry about. Just the “invisible enemy”...
+
+$spy $spx $qqq $eem $iwm $aapl $fb $googl $nflx $amzn…",-1.0,"['AAPL', 'AMZN', 'FB', 'GOOGL', 'NFLX']",2020-07-06,19,0,7,2020,rt madison89421615 probably nothing to worry about. just the invisible enemy... spy spx qqq eem iwm aapl fb googl nflx amzn,123,21,5
+777772,2020-07-06 21:01:42+00:00,RT @baylounging: $FB nice improvement https://t.co/1vOCPqIgnE,1.0,['FB'],2020-07-06,21,0,7,2020,rt baylounging fb nice improvement httpst.co1vocpqigne,54,6,1
+803621,2020-07-07 04:39:58+00:00,Spiking $AMZN $TSLA not about bubble. But personal issues between Elon and Musk. Whose dick is longer,-1.0,['AMZN'],2020-07-07,4,1,7,2020,spiking amzn tsla not about bubble. but personal issues between elon and musk. whose dick is longer,99,17,1
+803579,2020-07-07 04:46:22+00:00,"Amazon shares rose past $3,000 for the first time while Tesla extended its five-day rally to over 40%.
+
+$AMZN $TSLA #stockmarkets",1.0,['AMZN'],2020-07-07,4,1,7,2020,"amazon shares rose past 3,000 for the first time while tesla extended its five-day rally to over 40. amzn tsla stockmarkets",123,21,1
+803368,2020-07-07 05:24:57+00:00,"RT @SJosephBurns: Big tech returns in 2008 recession...
+$MSFT: -44%
+$AAPL: -57%
+$GOOGL: -56%
+$AMZN: -45%
+$QQQ: -42%
+
+Big tech returns YTD i…",-1.0,"['AAPL', 'AMZN', 'GOOGL', 'MSFT']",2020-07-07,5,1,7,2020,rt sjosephburns big tech returns in 2008 recession... msft -44 aapl -57 googl -56 amzn -45 qqq -42 big tech returns ytd i,121,23,4
+799685,2020-07-07 13:32:06+00:00,already in $AAPL pulled profit!,1.0,['AAPL'],2020-07-07,13,1,7,2020,already in aapl pulled profit!,30,5,1
+799601,2020-07-07 13:36:17+00:00,"$idex $izea $lk $fb $ibio $dow $spy $tsla $nkla $dkng $aapl $aal $zom $vxrt $ino $shop $aytu $ozsc $tops $ktov $ba $nvda $msft $spy $gnus $aezs $dloc
+
+We alerted $SOLO at $2.5 RAN TO $6.5 700 (200% GAIN!)
+
+Daily Alerts
+
+$15 ONE TIME FEE
+
+BEAT THAT
+👇   👇
+https://t.co/33NfOdjf0i",1.0,"['AAL', 'AAPL', 'BA', 'DOW', 'FB', 'IEX', 'MSFT', 'NVDA']",2020-07-07,13,1,7,2020,idex izea lk fb ibio dow spy tsla nkla dkng aapl aal zom vxrt ino shop aytu ozsc tops ktov ba nvda msft spy gnus aezs dloc we alerted solo at 2.5 ran to 6.5 700 200 gain! daily alerts 15 one time fee beat that httpst.co33nfodjf0i,229,47,8
+799414,2020-07-07 13:45:17+00:00,"$TROW T. Rowe Price #Options #maxpain Chart, Open Interest Chart Update #OptionsTrading #OptionsFlow #optionstrade #optiontrading #stocks #stock #StockMarket #Investment #investing #invest #investor #investors #UOA https://t.co/B7BWRcEdMH https://t.co/o91lJzZK3X https://t.co/CuidboglCX",1.0,['TROW'],2020-07-07,13,1,7,2020,"trow t. rowe price options maxpain chart, open interest chart update optionstrading optionsflow optionstrade optiontrading stocks stock stockmarket investment investing invest investor investors uoa httpst.cob7bwrcedmh httpst.coo91ljzzk3x httpst.cocuidboglcx",258,27,1
+794060,2020-07-07 18:50:50+00:00,"$ES - 2nd BIG WIN of the day
+
+Short ES at 3167  Exit = 3150 (partial)
+
+Profit = 17 ES pts = $850
+
+#algotrade #eosalgotrade $SPX $SPY $AMZN $AAPL $AMD $FB $SHOP $BYND $NVDA $GOOGL $MSFT $TSLA $BA $CMG $INTC $NFLX $JPM $BAC $YM $YM_F $NQ $NQ_F $ES $ES_F $GC $GLD $QQQ https://t.co/RrLAkUQXpU",1.0,"['AAPL', 'AMD', 'AMZN', 'BA', 'BAC', 'CMG', 'ES', 'FB', 'GOOGL', 'INTC', 'JPM', 'MSFT', 'NFLX', 'NVDA']",2020-07-07,18,1,7,2020,es - 2nd big win of the day short es at 3167 exit 3150 partial profit 17 es pts 850 algotrade eosalgotrade spx spy amzn aapl amd fb shop bynd nvda googl msft tsla ba cmg intc nflx jpm bac ym ym_f nq nq_f es es_f gc gld qqq httpst.corrlakuqxpu,242,50,14
+792586,2020-07-07 20:30:36+00:00,REPORT: Facebook fails to win over ad boycott organizers $FB https://t.co/csoywrk0MP,-1.0,['FB'],2020-07-07,20,1,7,2020,report facebook fails to win over ad boycott organizers fb httpst.cocsoywrk0mp,78,11,1
+792370,2020-07-07 20:45:22+00:00,"CANCEL DEUTSCHE BANK $DB NOW! = #CHOMOBANK
+
+REAL #AMERICANS BANK #USA 
+$GOLD $JPM $GS $BAC $C $MS
+
+$wmt $cvs $fb $aapl $nflx $googl $amzn $ibb $eem $pg $t $jnj $z $botz $msft $lulu $ibm $tsla $crm $pep $f $ge $pton $hd $jnj $cat $vix $xlf $mkc $rl $tgt $a
+
+https://t.co/VxlYxnIDi7",-1.0,"['A', 'AAPL', 'AMZN', 'BAC', 'C', 'CAT', 'CRM', 'CVS', 'F', 'FB', 'GE', 'GOOGL', 'GS', 'HD', 'IBM', 'JNJ', 'JPM', 'MKC', 'MS', 'MSFT', 'NFLX', 'NOW', 'PEP', 'PG', 'RL', 'T', 'TGT', 'WMT']",2020-07-07,20,1,7,2020,cancel deutsche bank db now! chomobank real americans bank usa gold jpm gs bac c ms wmt cvs fb aapl nflx googl amzn ibb eem pg t jnj z botz msft lulu ibm tsla crm pep f ge pton hd jnj cat vix xlf mkc rl tgt a httpst.covxlyxnidi7,228,49,28
+820570,2020-07-08 02:34:11+00:00,"RT @sprtcrdlui: $TSLA closed up again.  Load dips . Ride this one higher
+$BA $NCLH $OAS $IDEX $WKHS $DAL $FCX $SHLL $Z $TTI $NFLX $M $API $…",1.0,"['BA', 'DAL', 'FCX', 'IEX', 'M', 'NCLH', 'NFLX']",2020-07-08,2,2,7,2020,rt sprtcrdlui tsla closed up again. load dips . ride this one higher ba nclh oas idex wkhs dal fcx shll z tti nflx m api,120,26,7
+818322,2020-07-08 08:22:19+00:00,"GlaxoSmithKline ... sounds like a snobby law firm. It's #ThatOneAMCall and $GSK picking up $757 million; $PM tacking on another billion dollars, premarket. 
+
+Tuesday*
+Big sharks, taking out $2.4 million in call options, $EIX*
+
+Dow futures, nice overnight rebound. Eyes: $MSFT https://t.co/F4lOMwY4Fz https://t.co/qqFhvGYp1S",1.0,"['EIX', 'MSFT', 'PM']",2020-07-08,8,2,7,2020,"glaxosmithkline ... sounds like a snobby law firm. it is thatoneamcall and gsk picking up 757 million pm tacking on another billion dollars, premarket. tuesday big sharks, taking out 2.4 million in call options, eix dow futures, nice overnight rebound. eyes msft httpst.cof4lomwy4fz httpst.coqqfhvgyp1s",302,44,3
+817391,2020-07-08 10:46:20+00:00,Q3 2020 EPS Estimates for Ball Co. $BLL Increased by Analyst https://t.co/8kanBWunUH #stocks,1.0,['BLL'],2020-07-08,10,2,7,2020,q3 2020 eps estimates for ball co. bll increased by analyst httpst.co8kanbwunuh stocks,86,13,1
+817221,2020-07-08 11:11:39+00:00,"RT @MacroCharts: Fascinating chart from GS:
+
+Due in part to the speed of the rally, the relationship between $SPX returns and the relative…",1.0,['GS'],2020-07-08,11,2,7,2020,"rt macrocharts fascinating chart from gs due in part to the speed of the rally, the relationship between spx returns and the relative",133,23,1
+816612,2020-07-08 12:09:57+00:00,Phoenix protesters demand answers after police ... $AAPL $AMZN $BTC $ETH $FB $GOOG $MSFT $QQQ $SPY $TSLA #cnbc #foxbusiness #business #money #entrepreneur #trading #investing #investment #stock #stockmarket #forex #crypto #cryptocurrency #Bitcoin #Ethereum #Coinbase #Robinhood https://t.co/yDKITrQj8j,-1.0,"['AAPL', 'AMZN', 'FB', 'GOOG', 'MSFT']",2020-07-08,12,2,7,2020,phoenix protesters demand answers after police ... aapl amzn btc eth fb goog msft qqq spy tsla cnbc foxbusiness business money entrepreneur trading investing investment stock stockmarket forex crypto cryptocurrency bitcoin ethereum coinbase robinhood httpst.coydkitrqj8j,270,35,5
+815327,2020-07-08 13:37:52+00:00,$AAPL - Apple's Irish tax appeal reaching decision next week https://t.co/UCd8COnagX,1.0,['AAPL'],2020-07-08,13,2,7,2020,aapl - apple is irish tax appeal reaching decision next week httpst.coucd8conagx,80,12,1
+815076,2020-07-08 13:49:21+00:00,"$FB testing my patience this morning  Stuck with the @trickmitch1 #TrickTrades morning plan off the levels 
+and took my green 
+Simplify folks #DayTrading",-1.0,['FB'],2020-07-08,13,2,7,2020,fb testing my patience this morning stuck with the trickmitch1 tricktrades morning plan off the levels and took my green simplify folks daytrading,146,23,1
+813617,2020-07-08 15:03:07+00:00,"RT @winstapro: ES_F stuck in the range. Let see if it holds 3140
+
+$ES $SPX $AAPL $AMZN $BA $FB $GOOGL $NFLX $NVDA $TSLA $ROKU $SPOT $SHOP $…",-1.0,"['AAPL', 'AMZN', 'BA', 'ES', 'FB', 'GOOGL', 'NFLX', 'NVDA']",2020-07-08,15,2,7,2020,rt winstapro es_f stuck in the range. let see if it holds 3140 es spx aapl amzn ba fb googl nflx nvda tsla roku spot shop,121,26,8
+811985,2020-07-08 16:35:01+00:00,$FB gave some nice buying opportunities below 238 this morning. I love it when bad news makes a good stock sell off.,1.0,['FB'],2020-07-08,16,2,7,2020,fb gave some nice buying opportunities below 238 this morning. i love it when bad news makes a good stock sell off.,115,22,1
+810768,2020-07-08 17:54:04+00:00,RT @realJosephRich: Tim Cook furiously trying to save the NASDAQ by buying back $AAPL stock funded by debt bought by the Fed is the lowest…,1.0,['AAPL'],2020-07-08,17,2,7,2020,rt realjosephrich tim cook furiously trying to save the nasdaq by buying back aapl stock funded by debt bought by the fed is the lowest,135,25,1
+808033,2020-07-08 20:39:33+00:00,$AAPL Steady...... Steady.... Easy does it now. Think we can put on another 80 before she tumbles. https://t.co/OVrCyZY3ly,1.0,['AAPL'],2020-07-08,20,2,7,2020,aapl steady...... steady.... easy does it now. think we can put on another 80 before she tumbles. httpst.coovrcyzy3ly,117,18,1
+837572,2020-07-09 01:15:49+00:00,RT @Nick86294519: @apollotradingsd Aside from my in depth analysis on $C and $JPM that I posted. They got beat down 40% bcz market assumed…,-1.0,"['C', 'JPM']",2020-07-09,1,3,7,2020,rt nick86294519 apollotradingsd aside from my in depth analysis on c and jpm that i posted. they got beat down 40 bcz market assumed,132,24,2
+836221,2020-07-09 04:10:13+00:00,Concho Resources Inc $CXO Sees Significant Decrease in Short Interest https://t.co/9hQH7cRpix #stocks,-1.0,['CXO'],2020-07-09,4,3,7,2020,concho resources inc cxo sees significant decrease in short interest httpst.co9hqh7crpix stocks,95,12,1
+833006,2020-07-09 12:11:29+00:00,RT @realJosephRich: Tim Cook furiously trying to save the NASDAQ by buying back $AAPL stock funded by debt bought by the Fed is the lowest…,-1.0,['AAPL'],2020-07-09,12,3,7,2020,rt realjosephrich tim cook furiously trying to save the nasdaq by buying back aapl stock funded by debt bought by the fed is the lowest,135,25,1
+831465,2020-07-09 13:41:30+00:00,$T dropped under $30 so you know what i did 😏😏,-1.0,['T'],2020-07-09,13,3,7,2020,t dropped under 30 so you know what i did,41,10,1
+830153,2020-07-09 14:39:14+00:00,$AMD Ryzen 4000 desktop CPUs looking ‘great’ and on track to launch in 2020 https://t.co/y7yYvXOVYJ #madtweets #stocks #cnbc #AMD,1.0,['AMD'],2020-07-09,14,3,7,2020,amd ryzen 4000 desktop cpus looking great and on track to launch in 2020 httpst.coy7yyvxovyj madtweets stocks cnbc amd,118,19,1
+827345,2020-07-09 16:57:55+00:00,"Kraft Heinz - Daily
+#SP500 
+Short Term: Range $31 / $34.
+Medium Term: Large range $28 / $34.
+Long Term: Large range $20 / $32.
+Short Term support $31 must hold the line to prevent correction to $29, $28 and $27.",1.0,['KHC'],2020-07-09,16,3,7,2020,"kraft heinz - daily sp500 short term range 31 34. medium term large range 28 34. long term large range 20 32. short term support 31 must hold the line to prevent correction to 29, 28 and 27.",190,38,1
+822979,2020-07-09 21:40:05+00:00,"RT @warrior16win: $HDii lot more green 🤑 coming on this summer monster 💥🚀
+Welcome to the new #banktank members 🦾
+🟢🟢🟢🟢🟢🟢
+#asia #twitter #tru…",1.0,['TWTR'],2020-07-09,21,3,7,2020,rt warrior16win hdii lot more green coming on this summer monster welcome to the new banktank members asia twitter tru,118,20,1
+822801,2020-07-09 21:56:24+00:00,Proud owner of $AMZN stock. This thing might help me retire next year ...and pay for my yacht,1.0,['AMZN'],2020-07-09,21,3,7,2020,proud owner of amzn stock. this thing might help me retire next year ...and pay for my yacht,92,18,1
+822525,2020-07-09 22:28:26+00:00,"News Alert: FSD Pharma -Applying for an I.N.D. for its compound to Treat COVID-19 Patients $HUGE
+
+https://t.co/gMuscqItVQ 
+
+$AZN $CASBF $GSK $INO $JNJ $MRK $MRNA $NVAX $PFE $SAN
+
+#astrazeneca #GSK #INO #JNJ #Merck #moderna #Novavax #Pfizer #sanofi #nasdaq #biontech",1.0,"['JNJ', 'MRK', 'PFE']",2020-07-09,22,3,7,2020,news alert fsd pharma -applying for an i.n.d. for its compound to treat covid-19 patients huge httpst.cogmuscqitvq azn casbf gsk ino jnj mrk mrna nvax pfe san astrazeneca gsk ino jnj merck moderna novavax pfizer sanofi nasdaq biontech,234,38,3
+848438,2020-07-10 13:18:07+00:00,$NLSN $VIAC $DIS - Media giants to miss out on out-of-home ratings boost https://t.co/BFbsP42Mfh,1.0,"['DIS', 'NLSN', 'VIAC']",2020-07-10,13,4,7,2020,nlsn viac dis - media giants to miss out on out-of-home ratings boost httpst.cobfbsp42mfh,89,14,3
+848317,2020-07-10 13:23:32+00:00,@RichLightShed $GOOG needs to buy $ROKU - get off their wallet and do something useful.,1.0,['GOOG'],2020-07-10,13,4,7,2020,richlightshed goog needs to buy roku - get off their wallet and do something useful.,84,15,1
+847066,2020-07-10 14:28:27+00:00,"is a dem sweep is going to be a problem for names like $V and $MA? 🤔 // Credit Cards Take From Poor, Give to the Rich https://t.co/TMhKpnTT3h",-1.0,"['MA', 'V']",2020-07-10,14,4,7,2020,"is a dem sweep is going to be a problem for names like v and ma? credit cards take from poor, give to the rich httpst.cotmhkpntt3h",130,26,2
+845641,2020-07-10 15:47:18+00:00,Pelham Long/Short Master Fund Limited short position in WM MORRISON SUPERMARKETS up 0.14% to 1.65% #MRW $MRW #LSE #StockMarket #Stocks #Shares #Business #Markets #Trading #News #Investing #Short https://t.co/vM411LdLkR,-1.0,['WM'],2020-07-10,15,4,7,2020,pelham longshort master fund limited short position in wm morrison supermarkets up 0.14 to 1.65 mrw mrw lse stockmarket stocks shares business markets trading news investing short httpst.covm411ldlkr,199,28,1
+842551,2020-07-10 18:32:18+00:00,$UAVS has $AMZN written all of it.   Increasing headcount 1000%.   Business must be booming.,1.0,['AMZN'],2020-07-10,18,4,7,2020,uavs has amzn written all of it. increasing headcount 1000. business must be booming.,85,14,1
+842201,2020-07-10 18:50:52+00:00,$ES_F $SPY $VXX $NYSE #SP500 #stockmarket #marketinternals #forex #markets #equitymarket #investing #equities #Futures #Trading Recap: Today's trading report bias+1 bullish sent 7/10/20 8:50 AM (ET) upper target+5 at $3168 cash high $3168.5 https://t.co/sf0iBaMU5s https://t.co/pCVl82Vo6G,1.0,"['ES', 'TGT']",2020-07-10,18,4,7,2020,es_f spy vxx nyse sp500 stockmarket marketinternals forex markets equitymarket investing equities futures trading recap today is trading report bias1 bullish sent 71020 850 am et upper target5 at 3168 cash high 3168.5 httpst.cosf0ibamu5s httpst.copcvl82vo6g,257,35,2
+840922,2020-07-10 19:58:12+00:00,"$9,800 total gain this week! Holding some contracts of $TSLA and $AMZN for next week. Thank you @EliteOptions2 @BeastModeTrades  for the continued valuable service. The levels and guidance are greatly appreciated. Have a good weekend everyone! 🙏👩🏻‍💻📉📈🚀💵 #OptionsTrading https://t.co/1T1qucZnf8",1.0,['AMZN'],2020-07-10,19,4,7,2020,"9,800 total gain this week! holding some contracts of tsla and amzn for next week. thank you eliteoptions2 beastmodetrades for the continued valuable service. the levels and guidance are greatly appreciated. have a good weekend everyone! optionstrading httpst.co1t1qucznf8",272,38,1
+862600,2020-07-11 00:30:04+00:00,"RT @MinteractApp: Friday's Top Flow in #industrial sector, Buy Flow &amp; Sell Flow $BA $CAT $CSX $FDX $GD $HON $FAST $LUV $WM $EFX $NOC $GE $P…",1.0,"['BA', 'CAT', 'CSX', 'EFX', 'FAST', 'FDX', 'GD', 'GE', 'HON', 'LUV', 'NOC', 'WM']",2020-07-11,0,5,7,2020,"rt minteractapp friday is top flow in industrial sector, buy flow amp sell flow ba cat csx fdx gd hon fast luv wm efx noc ge p",126,27,12
+860336,2020-07-11 08:19:21+00:00,RT @musicnews360: Utah governor declares state of emergency due to ... $AAPL $AMZN $BTC $ETH $FB $GOOG $MSFT $QQQ $SPY $TSLA #cnbc #foxbusi…,-1.0,"['AAPL', 'AMZN', 'FB', 'GOOG', 'MSFT']",2020-07-11,8,5,7,2020,rt musicnews360 utah governor declares state of emergency due to ... aapl amzn btc eth fb goog msft qqq spy tsla cnbc foxbusi,125,23,5
+858822,2020-07-11 13:51:47+00:00,"Tracking well to May 9 Plan 
+
+- we slaughtered the move to 127-130 1st target 
+- deeper than expected retrace on #C19 fear phase II 
+- next stop - rally to 140 on #Truth
+
+#Mando is killing #C19
+
+$DIS $SPY $QQQ https://t.co/9egpP0Ys3r",-1.0,"['DIS', 'TGT']",2020-07-11,13,5,7,2020,tracking well to may 9 plan - we slaughtered the move to 127-130 1st target - deeper than expected retrace on c19 fear phase ii - next stop - rally to 140 on truth mando is killing c19 dis spy qqq httpst.co9egpp0ys3r,216,42,2
+857780,2020-07-11 15:55:49+00:00,"RT @JohnTocci: I don’t know who needs to hear this, but $AMZN is ridiculously overvalued at the current price.",-1.0,['AMZN'],2020-07-11,15,5,7,2020,"rt johntocci i dont know who needs to hear this, but amzn is ridiculously overvalued at the current price.",106,19,1
+855956,2020-07-11 20:23:29+00:00,"@AOTtrades $HD please, looks poised for breakout",1.0,['HD'],2020-07-11,20,5,7,2020,"aottrades hd please, looks poised for breakout",46,7,1
+865666,2020-07-12 17:23:03+00:00,@axelroark You should see the negative divergence on $AMZN... speaking of overstaying your welcome.,-1.0,['AMZN'],2020-07-12,17,6,7,2020,axelroark you should see the negative divergence on amzn... speaking of overstaying your welcome.,97,14,1
+888982,2020-07-13 01:42:02+00:00,"$SATS SP #SATS Ltd. Singapore Daily - Monday, July 13, 2020: KEY HIGHLIGHTS Results SATS (SATS SP/HOLD/S$2.88/Target: S$2.93): 4QFY20: S$51m in credit and impairment provisions; guides For lower loss in 1QFY21. TRADERS’ CORNER Keppel DC… https://t.co/xzT32wBTIy #equity #stocks",-1.0,"['KEY', 'TGT']",2020-07-13,1,0,7,2020,"sats sp sats ltd. singapore daily - monday, july 13, 2020 key highlights results sats sats spholds2.88target s2.93 4qfy20 s51m in credit and impairment provisions guides for lower loss in 1qfy21. traders corner keppel dc httpst.coxzt32wbtiy equity stocks",254,38,2
+887685,2020-07-13 04:53:32+00:00,"RT @HedgeMind: IBM Retirement Fund, ~$800M, acquired many hot tech names as of 6/30:
+
+Added new positions:
+$ZM
+$AYX
+$TTD
+$DDOG
+$MDB
+$AVLR
+.…",1.0,['IBM'],2020-07-13,4,0,7,2020,"rt hedgemind ibm retirement fund, 800m, acquired many hot tech names as of 630 added new positions zm ayx ttd ddog mdb avlr .",125,24,1
+886506,2020-07-13 07:50:37+00:00,"RT @YahooFinance: Highlight: For $AAPL, “there’s prospects potentially more so of a V-shaped recovery,” @DeutscheBank Research Analyst Jeri…",1.0,['AAPL'],2020-07-13,7,0,7,2020,"rt yahoofinance highlight for aapl, theres prospects potentially more so of a v-shaped recovery, deutschebank research analyst jeri",131,18,1
+882865,2020-07-13 13:04:58+00:00,No one is going to upgrade $PEP !?,-1.0,['PEP'],2020-07-13,13,0,7,2020,no one is going to upgrade pep !?,33,8,1
+882133,2020-07-13 13:35:46+00:00,Buy the Dip replaced with plain old FOMO - pick faves and set stops. Tech still rules to day. Dow up one percent but Nasdaq still the tell &amp; up 1.25%. FAANG &amp; Friends intra-sector rotation= All in the green as $SQ leads (rebound off selloff last week) while $MSFT lags the group,1.0,['MSFT'],2020-07-13,13,0,7,2020,buy the dip replaced with plain old fomo - pick faves and set stops. tech still rules to day. dow up one percent but nasdaq still the tell amp up 1.25. faang amp friends intra-sector rotation all in the green as sq leads rebound off selloff last week while msft lags the group,276,53,1
+880542,2020-07-13 14:32:16+00:00,@Sandro_power $AAPL win,1.0,['AAPL'],2020-07-13,14,0,7,2020,sandro_power aapl win,21,3,1
+880281,2020-07-13 14:41:20+00:00,In $snap 7/17 $26 calls at .91. Looking for 25% cut at .7. Only in this and $jnj short term rn,-1.0,['JNJ'],2020-07-13,14,0,7,2020,in snap 717 26 calls at .91. looking for 25 cut at .7. only in this and jnj short term rn,89,21,1
+879928,2020-07-13 14:55:45+00:00,"@JustinPulitzer $AAPL, Still early, but looking for a look above and fail at the 161.8 fib extension at 398.05 of the previous Feb. high to the March low.",-1.0,['AAPL'],2020-07-13,14,0,7,2020,"justinpulitzer aapl, still early, but looking for a look above and fail at the 161.8 fib extension at 398.05 of the previous feb. high to the march low.",152,28,1
+879655,2020-07-13 15:04:52+00:00,"RT @Madison89421615: $GOLD / $SILVER 50MA Bounce (Weekly)
+
+$work $docu $okta $msft $aapl $fb $amzn $nflx $googl $spot $twlo $twtr $uber $ly…",1.0,"['AAPL', 'AMZN', 'FB', 'GOOGL', 'MSFT', 'NFLX', 'TWTR']",2020-07-13,15,0,7,2020,rt madison89421615 gold silver 50ma bounce weekly work docu okta msft aapl fb amzn nflx googl spot twlo twtr uber ly,116,21,7
+876914,2020-07-13 17:03:11+00:00,"RT @financeasmr: Facebook $FB has so many issues from regulators and clients
+
+Rizzle doesn’t 
+
+If you are a venture capital invester consid…",-1.0,['FB'],2020-07-13,17,0,7,2020,rt financeasmr facebook fb has so many issues from regulators and clients rizzle doesnt if you are a venture capital invester consid,132,22,1
+874877,2020-07-13 18:55:48+00:00,RT @Sandro_power: $AAPL $GOOGL we made good gains following the rules not as much as we wanted to but good gains with skill. If you want to…,1.0,"['AAPL', 'GOOGL']",2020-07-13,18,0,7,2020,rt sandro_power aapl googl we made good gains following the rules not as much as we wanted to but good gains with skill. if you want to,135,27,2
+873005,2020-07-13 20:21:02+00:00,"$MSFT Bearish Engulfing
+Daily appearances since 2010: 85
+Close 5 days later ±:
+Avg: 0.79
+SD: 1.84
+Worst: -3.78
+Best: 6.78
+
+10 days later:
+Avg: 1.32
+SD: 3.23
+Worst: -4.94
+Best: 18.85
+
+30 days later:
+Avg: 2.24
+SD: 5.63
+Worst: -14.42
+Best: 31.26",-1.0,['MSFT'],2020-07-13,20,0,7,2020,msft bearish engulfing daily appearances since 2010 85 close 5 days later avg 0.79 sd 1.84 worst -3.78 best 6.78 10 days later avg 1.32 sd 3.23 worst -4.94 best 18.85 30 days later avg 2.24 sd 5.63 worst -14.42 best 31.26,221,42,1
+872747,2020-07-13 20:34:56+00:00,"@michaelbatnick ...hope not, I added some $MSFT during the panic sell-off  :)",-1.0,['MSFT'],2020-07-13,20,0,7,2020,"michaelbatnick ...hope not, i added some msft during the panic sell-off",71,11,1
+872570,2020-07-13 20:46:22+00:00,"$BIDU $SAVE $WORK $T $AAPL $C $MSFT 
+$XLF $SPY $FB $CHWY $PTON $DIS $F $ADBE $CSCO $JPM $CCL $MGM $IWM $HD $V $TWTR $XLE $XOM
+
+To enhance your experience in trading and get instant help click here https://t.co/o02HlQ7vQI https://t.co/hIMMPsGVB0",1.0,"['AAPL', 'ADBE', 'C', 'CCL', 'CSCO', 'DIS', 'F', 'FB', 'HD', 'JPM', 'MGM', 'MSFT', 'T', 'TWTR', 'V', 'XOM']",2020-07-13,20,0,7,2020,bidu save work t aapl c msft xlf spy fb chwy pton dis f adbe csco jpm ccl mgm iwm hd v twtr xle xom to enhance your experience in trading and get instant help click here httpst.coo02hlq7vqi httpst.cohimmpsgvb0,209,39,16
+872249,2020-07-13 21:05:49+00:00,"So long, focus groups. Here’s everything you need to know about the new data that’s directing Hollywood - $viac $cmcsa $dis $nflx $aapl $t $sne $roku $amzn $disca $lgf $twtr $fox $fb $goog $snap $stx $mgm https://t.co/Hpa5PTk37E",1.0,"['AAPL', 'AMZN', 'CMCSA', 'DIS', 'DISCA', 'FB', 'FOX', 'GOOG', 'MGM', 'NFLX', 'STX', 'T', 'TWTR', 'VIAC']",2020-07-13,21,0,7,2020,"so long, focus groups. heres everything you need to know about the new data thats directing hollywood - viac cmcsa dis nflx aapl t sne roku amzn disca lgf twtr fox fb goog snap stx mgm httpst.cohpa5ptk37e",204,37,14
+902509,2020-07-14 11:08:50+00:00,"RT @israel_massa: $JPM | JPMorgan Q2 20 Earnings: 
+- Revenue $33.82B (exp $30.57B) 
+- EPS: $1.32 (exp $1.01) 
+- Provision For Credit Loss:…",-1.0,['JPM'],2020-07-14,11,1,7,2020,rt israel_massa jpm jpmorgan q2 20 earnings - revenue 33.82b exp 30.57b - eps 1.32 exp 1.01 - provision for credit loss,119,22,1
+901788,2020-07-14 11:50:20+00:00,RT @CNBC: JPMorgan reported Q2 results that beat analysts’ expectations. Trading revenue surged 79%. https://t.co/KTEVe7ZX2M $JPM https://t…,1.0,['JPM'],2020-07-14,11,1,7,2020,rt cnbc jpmorgan reported q2 results that beat analysts expectations. trading revenue surged 79. httpst.cokteve7zx2m jpm httpst,127,17,1
+897554,2020-07-14 14:59:12+00:00,"$RIGL Shredding Scans This Morning 🔥
+
+Our Entry Target Was The Break Of $3.60 Here 🎯
+
+Expecting Decent Upside But No One Predicted $5.24 😤🤯🔥
+
+Hope Everyone’s Having A Successful Trading Day Out There 🙏
+
+$EBON $IMV $PRCP $INMB $EQ $ICON $ALT #stocks #pennystocks #stockalerts https://t.co/pyeAsIBoo0",1.0,['TGT'],2020-07-14,14,1,7,2020,rigl shredding scans this morning our entry target was the break of 3.60 here expecting decent upside but no one predicted 5.24 hope everyones having a successful trading day out there ebon imv prcp inmb eq icon alt stocks pennystocks stockalerts httpst.copyeasiboo0,266,42,1
+894169,2020-07-14 18:15:29+00:00,"Oddly low volume right now. 
+
+It’s spooky.
+
+$NQ $ES $QQQ $NDX $SPY $SPX $DXY $TRIN",-1.0,['ES'],2020-07-14,18,1,7,2020,oddly low volume right now. its spooky. nq es qqq ndx spy spx dxy trin,70,15,1
+893885,2020-07-14 18:32:45+00:00,Biogen $BIIB Has A Poor #Technical Analysis Score (TA Score). Breakdown Of 3 Categories: #candle score Neutral; moving average score Poor; #momentum score Poor #stocks #stock #StockMarket #Investment #investing https://t.co/Jj64hrH1R3 https://t.co/aZBpbgGaen https://t.co/vKawDwrcoL,-1.0,['BIIB'],2020-07-14,18,1,7,2020,biogen biib has a poor technical analysis score ta score. breakdown of 3 categories candle score neutral moving average score poor momentum score poor stocks stock stockmarket investment investing httpst.cojj64hrh1r3 httpst.coazbpbggaen httpst.covkawdwrcol,256,32,1
+891477,2020-07-14 21:16:34+00:00,I must be the only person who looks at these esoteric VIX products because I feel like this should be getting a lot more attention. CBOE Equity VIX on $AMZN is back to mid March highs. In that same time the stock is up 90%. $VXAZN https://t.co/g7geHzVGEQ,1.0,"['AMZN', 'CBOE']",2020-07-14,21,1,7,2020,i must be the only person who looks at these esoteric vix products because i feel like this should be getting a lot more attention. cboe equity vix on amzn is back to mid march highs. in that same time the stock is up 90. vxazn httpst.cog7gehzvgeq,247,47,2
+924002,2020-07-15 00:31:57+00:00,"Can't play these futures tonight
+ 
+Every bones in my body says buy but I know the right thing to do is sell. Therefore can't do it
+
+$SPX /ES",-1.0,['ES'],2020-07-15,0,2,7,2020,cannot play these futures tonight every bones in my body says buy but i know the right thing to do is sell. therefore cannot do it spx es,137,28,1
+923641,2020-07-15 01:07:19+00:00,$UNH 17-Jul-20 ATM Implied Volatility is up +10.7% to 48.1. Straddle Implies a Move of ±4.2%. Earnings Jul 15 BMO. https://t.co/wvnSfNF68U,-1.0,['UNH'],2020-07-15,1,2,7,2020,unh 17-jul-20 atm implied volatility is up 10.7 to 48.1. straddle implies a move of 4.2. earnings jul 15 bmo. httpst.cowvnsfnf68u,129,21,1
+923520,2020-07-15 01:21:09+00:00,"$T  Jul 14    
+- Daily stock market timing forecast -    
+◆ Investing view    
+=&gt; Buy - Bullish    
+◆ Search for the daily stock market timing forecast    
+https://t.co/cgw2OmhClQ    
+◆ Upper~Lower stock... https://t.co/5iEpNwOVuI https://t.co/vdb3vvRLNX",1.0,['T'],2020-07-15,1,2,7,2020,t jul 14 - daily stock market timing forecast - investing view gt buy - bullish search for the daily stock market timing forecast httpst.cocgw2omhclq upperlower stock... httpst.co5iepnwovui httpst.covdb3vvrlnx,209,29,1
+919127,2020-07-15 09:14:33+00:00,"Both $TSLA and $AMZN have seen a recent surge in volatility while $SPY is seeing a fall in volatility.
+
+Expect tech stocks to see mean reversion soon. https://t.co/DlyhwTrCp0",-1.0,['AMZN'],2020-07-15,9,2,7,2020,both tsla and amzn have seen a recent surge in volatility while spy is seeing a fall in volatility. expect tech stocks to see mean reversion soon. httpst.codlyhwtrcp0,166,28,1
+917764,2020-07-15 11:51:25+00:00,"Ready to try the crypto “Pi network."" Stanford University PhD graduates made the first phone app that mines currency absolutely free. Because it is beta you need a member to invite. Use code (xcsresources) $nkla $tsla $gnus $xspa $amzn $idex $mark $svte $mvis $ne $idex",1.0,"['AMZN', 'IEX']",2020-07-15,11,2,7,2020,ready to try the crypto pi network. stanford university phd graduates made the first phone app that mines currency absolutely free. because it is beta you need a member to invite. use code xcsresources nkla tsla gnus xspa amzn idex mark svte mvis ne idex,254,45,2
+917612,2020-07-15 12:02:41+00:00,"RT @NorthmanTrader: Each vaccine optimism headline is worth 1% on $ES.
+There are 150 vaccine studies. 
+That should get us to $SPX 5000 by t…",1.0,['ES'],2020-07-15,12,2,7,2020,rt northmantrader each vaccine optimism headline is worth 1 on es. there are 150 vaccine studies. that should get us to spx 5000 by t,133,25,1
+916641,2020-07-15 13:01:06+00:00,$MSFT are you okay? https://t.co/vNIBpzbbpW,-1.0,['MSFT'],2020-07-15,13,2,7,2020,msft are you okay? httpst.covnibpzbbpw,38,5,1
+915063,2020-07-15 14:12:53+00:00,$gnpx People make no sense. This company is in fast track FDA trials for A CURE FOR LUNG CANCER. They obviously already demonstrated it works. Should be trading at least 3x higher. $immu $meso $btc $mrna $pfe $mrk $msft $gene $nio $ino $htbx $ge $amzn $baba $lk,-1.0,"['AMZN', 'GE', 'MRK', 'MSFT', 'PFE']",2020-07-15,14,2,7,2020,gnpx people make no sense. this company is in fast track fda trials for a cure for lung cancer. they obviously already demonstrated it works. should be trading at least 3x higher. immu meso btc mrna pfe mrk msft gene nio ino htbx ge amzn baba lk,245,47,5
+914118,2020-07-15 15:02:06+00:00,"$DIS
+Above $115 this looked like it wanted above $120! 
+Got above $115, hit $120, retested $115, now above $120. 
+I could see it trade in range of $120 to $130. https://t.co/bZlLZLhQoj https://t.co/RRSB34FJhr",1.0,['DIS'],2020-07-15,15,2,7,2020,"dis above 115 this looked like it wanted above 120! got above 115, hit 120, retested 115, now above 120. i could see it trade in range of 120 to 130. httpst.cobzllzlhqoj httpst.corrsb34fjhr",189,33,1
+913523,2020-07-15 15:33:49+00:00,"RT @dreambigly: $aapl up overnight as usual lately needs to get over 400 fast of take the market down, 3230 SP resistance 
+everyone needs a…",-1.0,['AAPL'],2020-07-15,15,2,7,2020,"rt dreambigly aapl up overnight as usual lately needs to get over 400 fast of take the market down, 3230 sp resistance everyone needs a",135,25,1
+912875,2020-07-15 16:06:36+00:00,"@BullishBearz If this rally is to continue, I think we need some bank participation. I bought some $BAC calls this morning.",1.0,['BAC'],2020-07-15,16,2,7,2020,"bullishbearz if this rally is to continue, i think we need some bank participation. i bought some bac calls this morning.",121,21,1
+911409,2020-07-15 17:52:24+00:00,"$BYND guys news, this could be a great swing after dust settles
+https://t.co/qodH7IlN46
+https://t.co/fkQ9G5X0fB
+https://t.co/DvUeqCl2I0
+https://t.co/fJn680GtHm
+$SPY $QQQ $FB $DIS $nflx $AAPL $TSLA $TWTR $MU $MRNA $PTON $MRK $AMD $NVDA $SHOP $SQ $BYND $SPCE $GE $WORK $SNAP $ROKU https://t.co/PWki9rRfgJ",1.0,"['AAPL', 'AMD', 'DIS', 'FB', 'GE', 'MRK', 'MU', 'NFLX', 'NVDA', 'TWTR']",2020-07-15,17,2,7,2020,"bynd guys news, this could be a great swing after dust settles httpst.coqodh7iln46 httpst.cofkq9g5x0fb httpst.codvueqcl2i0 httpst.cofjn680gthm spy qqq fb dis nflx aapl tsla twtr mu mrna pton mrk amd nvda shop sq bynd spce ge work snap roku httpst.copwki9rrfgj",259,39,10
+934909,2020-07-16 11:13:42+00:00,"RT @sbwcws: Apple price target raised to $444 from $310 at Canaccord
+$AAPL",1.0,"['AAPL', 'TGT']",2020-07-16,11,3,7,2020,rt sbwcws apple price target raised to 444 from 310 at canaccord aapl,69,13,2
+930752,2020-07-16 15:18:13+00:00,Wells Fargo &amp; Co Increases Twilio $TWLO Price Target to $250.00 https://t.co/Eh2YCz2Lza #stocks,1.0,"['TGT', 'WFC']",2020-07-16,15,3,7,2020,wells fargo amp co increases twilio twlo price target to 250.00 httpst.coeh2ycz2lza stocks,90,13,2
+929773,2020-07-16 16:11:19+00:00,Picked $amzn 3300 for earnings around 22. Should work If it runs into earnings!,1.0,['AMZN'],2020-07-16,16,3,7,2020,picked amzn 3300 for earnings around 22. should work if it runs into earnings!,78,14,1
+929272,2020-07-16 16:44:54+00:00,$AMZN $2992 you’re welcome,1.0,['AMZN'],2020-07-16,16,3,7,2020,amzn 2992 youre welcome,23,4,1
+928299,2020-07-16 17:50:52+00:00,UnitedHealth Group $UNH Price Target Raised to $357.00  https://t.co/2dL5wCoEUd,1.0,"['TGT', 'UNH']",2020-07-16,17,3,7,2020,unitedhealth group unh price target raised to 357.00 httpst.co2dl5wcoeud,72,9,2
+927482,2020-07-16 18:49:34+00:00,Goldman Sachs Group $GS Price Target Raised to $192.00 at Morgan Stanley https://t.co/MOaaXgYJC4 #stocks,1.0,"['GS', 'MS', 'TGT']",2020-07-16,18,3,7,2020,goldman sachs group gs price target raised to 192.00 at morgan stanley httpst.comoaaxgyjc4 stocks,97,14,3
+926174,2020-07-16 20:19:16+00:00,"RT @SharpStreetCap: And just like most of the Nasdaq overvalued 
+
+Stocks always comeback to reality 
+
+$NFLX $AMZN $AAPL $FB $NVDA",-1.0,"['AAPL', 'AMZN', 'FB', 'NFLX', 'NVDA']",2020-07-16,20,3,7,2020,rt sharpstreetcap and just like most of the nasdaq overvalued stocks always comeback to reality nflx amzn aapl fb nvda,118,20,5

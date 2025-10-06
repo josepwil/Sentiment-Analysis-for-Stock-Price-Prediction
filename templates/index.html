@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 1400px;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+        
+        /* Responsive container for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 10px;
+            }
+            
+            body {
+                padding: 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+                margin: 5px;
+            }
+            
+            body {
+                padding: 5px;
+            }
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: white;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0,123,255,0.3);
+        }
+        
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        button:disabled {
+            background-color: #6c757d;
+            cursor: not-allowed;
+        }
+        
+        /* Loading spinner styles */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .button-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .loading .spinner {
+            display: inline-block;
+        }
+        
+        .loading .button-text {
+            opacity: 0.8;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        
+        /* Performance Metrics Styling */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .metric-item {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+            font-size: 16px;
+        }
+        
+        .confusion-matrix {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .confusion-matrix table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        
+        .confusion-matrix td {
+            padding: 8px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .confusion-matrix td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+        
+        #chartsDisplay {
+            margin: 20px 0;
+            width: 100%;
+            overflow-x: auto;
+        }
+        
+        #sentimentVsPriceChart, #timeSeriesChart, #performanceChart {
+            margin: 20px 0;
+            min-height: 400px;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        
+        .chart-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow-x: auto;
+            overflow-y: hidden;
+            position: relative;
+        }
+        
+        @media (max-width: 1200px) {
+            .chart-container {
+                max-width: 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 10px;
+            }
+            
+            body {
+                padding: 10px;
+            }
+            
+            .chart-container {
+                max-width: 100%;
+                overflow-x: auto;
+            }
+            
+            #sentimentVsPriceChart, #timeSeriesChart, #performanceChart {
+                min-height: 300px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+                margin: 5px;
+            }
+            
+            body {
+                padding: 5px;
+            }
+            
+            #sentimentVsPriceChart, #timeSeriesChart, #performanceChart {
+                min-height: 250px;
+            }
+        }
+        
+        .chart-description {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0 25px 0;
+            border-left: 4px solid #17a2b8;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #495057;
+        }
+        
+        .chart-description strong {
+            color: #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Sentiment Analysis</h1>
+        
+        <form id="analysisForm">
+            <div class="form-group">
+                <label for="stock_ticker">Select Stock Ticker:</label>
+                <select id="stock_ticker" name="stock_ticker" required>
+                    <option value="">Choose a stock ticker...</option>
+                    <option value="$AAPL">$AAPL</option>
+                    <option value="$AMZN">$AMZN</option>
+                    <option value="$FB">$FB</option>
+                    <option value="$GS">$GS</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="dataset">Select Dataset:</label>
+                <select id="dataset" name="dataset" required>
+                    <option value="">Choose a dataset...</option>
+                    <option value="dataset1">Dataset 1</option>
+                    <option value="dataset2">Dataset 2</option>
+                    <option value="both">Both Datasets</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="technique">Select Sentiment Analysis Technique:</label>
+                <select id="technique" name="technique" required>
+                    <option value="">Choose a technique...</option>
+                    <option value="VADER">VADER</option>
+                    <option value="SVM">SVM</option>
+                    <option value="RNN (LSTM)">RNN (LSTM)</option>
+                    <option value="FinBERT">FinBERT</option>
+                </select>
+            </div>
+            
+            <button type="submit" id="analyzeButton">
+                <div class="button-content">
+                    <span class="spinner" style="display: none;"></span>
+                    <span class="button-text">Analyze Sentiment</span>
+                </div>
+            </button>
+        </form>
+        
+        <div id="result" class="result"></div>
+        
+        <div id="performanceSection" style="display: none;">
+            <h3>Performance Metrics</h3>
+            <div id="metricsDisplay"></div>
+            
+            <h3>Visualizations</h3>
+            <div id="chartsDisplay">
+                <div class="chart-container">
+                    <div id="sentimentVsPriceChart"></div>
+                    <p class="chart-description">
+                        <strong>Sentiment vs Price Change Scatter Plot:</strong> This chart shows the relationship between daily sentiment scores (x-axis) and actual stock price changes over 48 hours (y-axis). 
+                        Green markers indicate predictions of price increases, red markers indicate decreases. Circle markers represent weekday tweets, while diamond markers represent weekend tweets. 
+                        Points above the horizontal line at 0% show positive price movements, while points below show negative movements.
+                    </p>
+                </div>
+                
+                <div class="chart-container">
+                    <div id="timeSeriesChart"></div>
+                    <p class="chart-description">
+                        <strong>Time Series Analysis:</strong> This chart tracks sentiment scores (blue line, left y-axis) and actual price changes (orange line, right y-axis) over time. 
+                        It helps visualize how sentiment predictions align with market movements chronologically. 
+                        Circle markers represent weekday tweets, diamond markers represent weekend tweets. 
+                        The correlation between these two lines indicates how well the sentiment analysis predicts price movements.
+                    </p>
+                </div>
+                
+                <div class="chart-container">
+                    <div id="performanceChart"></div>
+                    <p class="chart-description">
+                        <strong>Performance Metrics Summary:</strong> This bar chart displays the key performance indicators for the sentiment analysis model. 
+                        Green bars indicate good performance (>50%), orange bars indicate moderate performance (30-50%), and red bars indicate poor performance (<30%). 
+                        These metrics help evaluate how accurately the model predicts stock price movements based on sentiment analysis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        document.getElementById('analysisForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const button = document.getElementById('analyzeButton');
+            const spinner = button.querySelector('.spinner');
+            const buttonText = button.querySelector('.button-text');
+            
+            button.disabled = true;
+            button.classList.add('loading');
+            spinner.style.display = 'inline-block';
+            buttonText.textContent = 'Analyzing...';
+            
+            const formData = new FormData(this);
+            
+            fetch('/analyze', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const button = document.getElementById('analyzeButton');
+                const spinner = button.querySelector('.spinner');
+                const buttonText = button.querySelector('.button-text');
+                
+                button.disabled = false;
+                button.classList.remove('loading');
+                spinner.style.display = 'none';
+                buttonText.textContent = 'Analyze Sentiment';
+                
+                const resultDiv = document.getElementById('result');
+                const performanceSection = document.getElementById('performanceSection');
+                
+                if (data.error) {
+                    resultDiv.innerHTML = `<p class="error">Error: ${data.error}</p>`;
+                    resultDiv.className = 'result error';
+                    resultDiv.style.display = 'block';
+                    performanceSection.style.display = 'none';
+                    return;
+                }
+                
+                resultDiv.innerHTML = `
+                    <h3>Analysis Completed Successfully!</h3>
+                    <p><strong>Stock Ticker:</strong> ${data.stock_ticker}</p>
+                    <p><strong>Dataset:</strong> ${data.dataset === 'both' ? 'Both Datasets (Combined)' : data.dataset}</p>
+                    <p><strong>Technique:</strong> ${data.technique}</p>
+                    <p><strong>Total Tweets:</strong> ${data.total_tweets}</p>
+                    <p><strong>Filtered Tweets:</strong> ${data.filtered_tweets}</p>
+                    ${data.dataset === 'both' && data.dataset_breakdown ? `
+                        <p><strong>Dataset Breakdown:</strong></p>
+                        <ul>
+                            <li>Dataset 1: ${data.dataset_breakdown.dataset1} tweets</li>
+                            <li>Dataset 2: ${data.dataset_breakdown.dataset2} tweets</li>
+                        </ul>
+                        <p><strong>Filtered Dataset Breakdown:</strong></p>
+                        <ul>
+                            <li>Dataset 1: ${data.filtered_breakdown.dataset1} tweets</li>
+                            <li>Dataset 2: ${data.filtered_breakdown.dataset2} tweets</li>
+                        </ul>
+                    ` : ''}
+                    <p><strong>Daily Sentiment Days:</strong> ${data.daily_sentiment ? data.daily_sentiment.length : 0}</p>
+                `;
+                resultDiv.className = 'result success';
+                resultDiv.style.display = 'block';
+                
+                if (data.performance_metrics && !data.performance_metrics.error) {
+                    displayPerformanceMetrics(data.performance_metrics);
+                    displayCharts(data.charts);
+                    performanceSection.style.display = 'block';
+                } else {
+                    performanceSection.style.display = 'none';
+                }
+            })
+            .catch(error => {
+                const button = document.getElementById('analyzeButton');
+                const spinner = button.querySelector('.spinner');
+                const buttonText = button.querySelector('.button-text');
+                
+                button.disabled = false;
+                button.classList.remove('loading');
+                spinner.style.display = 'none';
+                buttonText.textContent = 'Analyze Sentiment';
+                
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = '<p>Error submitting analysis. Please try again.</p>';
+                resultDiv.className = 'result error';
+                resultDiv.style.display = 'block';
+                document.getElementById('performanceSection').style.display = 'none';
+            });
+        });
+        
+        function displayPerformanceMetrics(metrics) {
+            const metricsDiv = document.getElementById('metricsDisplay');
+            metricsDiv.innerHTML = `
+                <div class="metrics-grid">
+                    <div class="metric-item">
+                        <strong>Accuracy:</strong> ${(metrics.accuracy * 100).toFixed(2)}%
+                    </div>
+                    <div class="metric-item">
+                        <strong>Precision:</strong> ${(metrics.precision * 100).toFixed(2)}%
+                    </div>
+                    <div class="metric-item">
+                        <strong>Recall:</strong> ${(metrics.recall * 100).toFixed(2)}%
+                    </div>
+                    <div class="metric-item">
+                        <strong>F1 Score:</strong> ${(metrics.f1_score * 100).toFixed(2)}%
+                    </div>
+                    <div class="metric-item">
+                        <strong>Pearson Correlation:</strong> ${metrics.pearson_correlation.toFixed(3)}
+                    </div>
+                    <div class="metric-item">
+                        <strong>Trading Days Evaluated:</strong> ${metrics.trading_days_evaluated}
+                    </div>
+                </div>
+                <div class="confusion-matrix">
+                    <h4>Confusion Matrix</h4>
+                    <table>
+                        <tr><td>True Positives:</td><td>${metrics.confusion_matrix.true_positives}</td></tr>
+                        <tr><td>True Negatives:</td><td>${metrics.confusion_matrix.true_negatives}</td></tr>
+                        <tr><td>False Positives:</td><td>${metrics.confusion_matrix.false_positives}</td></tr>
+                        <tr><td>False Negatives:</td><td>${metrics.confusion_matrix.false_negatives}</td></tr>
+                    </table>
+                </div>
+            `;
+        }
+        
+        function displayCharts(charts) {
+            if (charts.sentiment_vs_price) {
+                Plotly.newPlot('sentimentVsPriceChart', charts.sentiment_vs_price.data, charts.sentiment_vs_price.layout);
+            }
+            if (charts.time_series) {
+                Plotly.newPlot('timeSeriesChart', charts.time_series.data, charts.time_series.layout);
+            }
+            if (charts.performance_summary) {
+                Plotly.newPlot('performanceChart', charts.performance_summary.data, charts.performance_summary.layout);
+            }
+            
+            window.addEventListener('resize', function() {
+                if (charts.sentiment_vs_price) {
+                    Plotly.relayout('sentimentVsPriceChart', {
+                        'width': Math.min(1200, window.innerWidth - 40),
+                        'height': Math.min(600, window.innerHeight * 0.6)
+                    });
+                }
+                if (charts.time_series) {
+                    Plotly.relayout('timeSeriesChart', {
+                        'width': Math.min(1200, window.innerWidth - 40),
+                        'height': Math.min(600, window.innerHeight * 0.6)
+                    });
+                }
+                if (charts.performance_summary) {
+                    Plotly.relayout('performanceChart', {
+                        'width': Math.min(1200, window.innerWidth - 40),
+                        'height': Math.min(600, window.innerHeight * 0.6)
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+</html> 
